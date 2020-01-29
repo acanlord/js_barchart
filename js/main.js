@@ -3,9 +3,8 @@ var i;
 for (i = 0; i < 12; i++) {
   var duration = data.metalalbums[i].Minutes;
   // var album = data.metalalbums[i].Album;
-  // var album = data.metalalbums[Math.floor(Math.random()*data.metalalbums.length)];
+  // Get Random Item from Array
   var album = data.metalalbums[Math.floor(Math.random()*data.metalalbums.length)].Album;
-  // var album = data.metalalbums[Math.floor(Math.random()*data.metalalbums.length)];
   
   var divElement = document.getElementsByClassName("album"+ (i+1))[0];
   console.log(duration, album);
@@ -25,10 +24,7 @@ refreshAlbums = () => {
   var i;
   for (i = 0; i < 12; i++) {
     var duration = data.metalalbums[i].Minutes;
-    // var album = data.metalalbums[i].Album;
-    // var album = data.metalalbums[Math.floor(Math.random()*data.metalalbums.length)];
     var album = data.metalalbums[Math.floor(Math.random()*data.metalalbums.length)].Album;
-    // var album = data.metalalbums[Math.floor(Math.random()*data.metalalbums.length)];
     
     var divElement = document.getElementsByClassName("album"+ (i+1))[0];
     console.log(duration, album);
