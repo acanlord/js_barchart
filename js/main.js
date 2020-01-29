@@ -1,6 +1,6 @@
 console.log(data.metalalbums[0]);
 var i;
-for (i = 0; i < 10; i++) {
+for (i = 0; i < 12; i++) {
   var duration = data.metalalbums[i].Minutes;
   // var album = data.metalalbums[i].Album;
   // var album = data.metalalbums[Math.floor(Math.random()*data.metalalbums.length)];
@@ -23,7 +23,7 @@ refreshAlbums = () => {
 
   console.log("refreshing Albums!!");
   var i;
-  for (i = 0; i < 10; i++) {
+  for (i = 0; i < 12; i++) {
     var duration = data.metalalbums[i].Minutes;
     // var album = data.metalalbums[i].Album;
     // var album = data.metalalbums[Math.floor(Math.random()*data.metalalbums.length)];
